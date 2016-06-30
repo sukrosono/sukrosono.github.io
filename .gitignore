@@ -1,0 +1,6 @@
+_site
+.sass-cache
+.jekyll-metadata
+rd
+jekyllOutput
+node_modules
