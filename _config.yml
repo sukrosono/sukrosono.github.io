@@ -9,7 +9,7 @@
 title: Web developer
 email: goendoell49@gmail.com
 description: Person who love software engineering and fall in love with web
-baseurl: "/gitpage" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://http://brutalcrozt.github.io" # the base hostname & protocol for your site
 twitter_username: enter_rebel
 github_username:  brutalcrozt
@@ -20,6 +20,7 @@ incremental: false
 highlighter: rouge
 gist:
   noscript: false
-
+gems:
+    - jekyll-sitemap
 # Build settings
 markdown: kramdown
