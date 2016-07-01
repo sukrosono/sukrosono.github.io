@@ -1,8 +1,7 @@
 ---
-layout: page
+layout: experience
 title: Experience
 date: 2016-07-01 05:28:00 +0700
-permalink: /experiences/
 author: Adi Prasetyo
 genre: WebSite
 ---

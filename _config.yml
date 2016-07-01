@@ -7,15 +7,25 @@
 
 # Site settings
 title: Web developer
-email: goendoell49@gmail.com
+email: look@my.github
 description: Person who love software engineering and fall in love with web
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl:  # the subpath of your site, e.g. /blog
 url: "http://http://brutalcrozt.github.io" # the base hostname & protocol for your site
 twitter_username: enter_rebel
 github_username:  brutalcrozt
 github: [metadata]
 lsi: false
 source: ./
+collections:
+  experiences:
+    defaults:
+      - scope:
+          path: "./_experiences/"
+          type: experiences
+        values:
+            layout: experience
+    permalink: /experiences/:title
+
 incremental: false
 highlighter: rouge
 gist:
