@@ -7,10 +7,10 @@
 
 # Site settings
 title: Web developer
-email: look@my.github
-description: Person who love software engineering and fall in love with web
+email: hidden@from.spammer
+description: Person who admire software engineering and fall in love with web
 baseurl:  # the subpath of your site, e.g. /blog
-url: "http://http://brutalcrozt.github.io" # the base hostname & protocol for your site
+url: "http://brutalcrozt.github.io" # the base hostname & protocol for your site
 twitter_username: enter_rebel
 github_username:  brutalcrozt
 github: [metadata]
@@ -32,5 +32,6 @@ gist:
   noscript: false
 gems:
     - jekyll-sitemap
+    - jekyll-coffeescript
 # Build settings
 markdown: kramdown
