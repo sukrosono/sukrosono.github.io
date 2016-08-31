@@ -6,11 +6,13 @@
 
 
 ### Todo
-0. add new collections (post) indonesian and english, add intro d3.js then push
+0. add d3js index tag if necessary
 0. utilize toaster to inform if page or data failed to load (if necessary)
 0. link blog
 0. add ga analytic
 
+### post front matter
+0. date is mandatory, add it manually for sorting functionality
 ### use semantic
 0. programmatically use semantic for your experiences
 0. then add it on stackoverflow careers
