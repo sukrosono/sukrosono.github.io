@@ -7,7 +7,9 @@
 
 # Site settings
 title: Web developer
+author: Adi Prasetyo
 email: hidden@from.spammer
+logo: /static/img/avatar.png
 description: Person who admire software engineering and fall in love with web
 baseurl:  # the subpath of your site, e.g. /blog
 url: "http://brutalcrozt.github.io" # the base hostname & protocol for your site
@@ -24,14 +26,37 @@ collections:
           type: experiences
         values:
             layout: experience
-    permalink: /experiences/:title
+    output: true
+    # permalink: /experiences/:title
+  write_eng:
+    defaults:
+      - scope:
+          path: "./_write_eng/"
+          type: posts
+    output: true
+  write_ind:
+    defaults:
+      - scope:
+          path: "./_write_ind/"
+          type: posts
+    output: true
 
 incremental: false
+enableTags: true
+# tagarray: []
+# paginate: 5
+# per_page: 20
+# paginate_path: "page:num"
 highlighter: rouge
 gist:
   noscript: false
 gems:
     - jekyll-sitemap
     - jekyll-coffeescript
+    - jekyll-paginate
+    - jekyll-paginate-category
+    - jekyll-gist
+    - rouge
+    - jekyll-watch
 # Build settings
 markdown: kramdown

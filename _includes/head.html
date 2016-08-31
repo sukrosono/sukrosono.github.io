@@ -6,7 +6,26 @@
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  <!-- <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}"> -->
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <!-- optional css if exist on front matter -->
+  {% for extraCss in page.exclusiveCss %}
+    {% if extraCss contains '//' %}
+      <link rel="stylesheet" href="{{extraCss}}">
+    {% else %}
+      <link rel="stylesheet" href="{{extraCss| prepend: site.baseurl }}">
+    {% endif %}
+  {% endfor %}
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+
+  <!-- optional js if exist on front matter -->
+  {% for extraJs in page.exclusiveJs %}
+    {% if extraJs contains '//' %}
+      <script src="{{extraJs}}">
+      </script>
+    {% else %}
+      <script src="{{extraJs| prepend: site.baseurl }}">
+      </script>
+    {% endif %}
+  {% endfor %}
 </head>

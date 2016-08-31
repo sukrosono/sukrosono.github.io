@@ -1,0 +1,38 @@
+//- based on header.html but have a button to hide or show the navigation
+//- navigation also known as drawer
+
+//- add css and js for toggle feature
+link(rel="stylesheet", href="{{site.baseurl}}/static/css/toggle.css")
+script(src="{{site.baseurl}}/static/js/toggle_menu.js")
+header(class="header-panel shadow-z-2")
+  div(class="container")
+    div(class="row")
+      div(class="col-md-3 col-sm-4 col-xs-12")
+        div(class="row-picture")
+          img(class="logo-img", id="about", src="{{site.logo}}", height="75px"
+            width="75px")
+          h4(class="list-group-item-heading") {{site.title}}
+          p(class="list-group-item-text") {{site.author}}
+          |{% include social_link.html %}
+      div(class="col-md-9 col-sm-8 col-xs-12")
+        h2(class="blog-title-pro") {{page.title}}
+        p(class="info")
+          |{% if page.date %}
+          span(class="time") {{page.date| date_to_string}}
+          |{% endif %}
+          |{% if page.categories.size> 0%}
+          span(class="categories") &raquo;
+          |{% for category in page.categories %}
+          a(href="{{site.baseurl}}/category/{{category}}") {{category}}
+            //- ??????????? maybe if last iteration close the span tag? but ....
+            |{% if forloop.last == false %}, {% endif%}
+          |{% endfor %}
+          |{% endif %}
+        //- toggle menu button
+    div(class="navbar-header pull-right row")
+      //- navbar-toggle collapse
+      button(class="menu-btn btn-raised", type="button",
+      data-toggle="collapse", data-target="#idTarget", aria-expanded="false")
+        //- sr-only
+        span Menu&nbsp;
+          i(class="fa fa-bars menu-btn-icon")

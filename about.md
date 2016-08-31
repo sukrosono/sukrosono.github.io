@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-Will update about page latter, if it feel necessary.
+Will update about page later.

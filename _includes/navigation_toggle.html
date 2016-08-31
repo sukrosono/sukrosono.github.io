@@ -1,0 +1,24 @@
+
+<nav class="menu menu-slide-right">
+  <div class="menu-close">
+    <button class="btn btn-raised btn-info">Close Menu &rarr;</button>
+  </div>
+  <ul class="menu-items {{page.layout}}">
+    {% for i in site.data.urls %}
+    {% assign current= nil %}
+    {% assign pageurl= page.url | split:'/' | last %}
+    {% assign menuurl= i.url| split:'/'| last %}
+    {% assign linkurl= nil %}
+    {% if i.url contains '://' %}
+    {% assign linkurl= i.url %}
+    {% else %}
+    {% assign linkurl= i.url| prepend: site.baseurl %}
+    {% endif %}
+    {% assign target= i.target%}
+    {% unless target %} {% assign target= '_self' %} {% endunless %}
+    {% if pageurl == menuurl or page.layout == i.layout%}
+    {% assign current= 'current-menu-item' %}
+    {% endif %}
+    <li class="{{current}} {{ pageurl }} menu-item"><a href="{{linkurl}}" target="{{target}}">{{i.text}}&nbsp;<i class="fa {{i.icon}}"></i></a></li>{% endfor %}
+  </ul>
+</nav>

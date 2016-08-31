@@ -1,0 +1,9 @@
+main(class="container main outer")
+  div(class="row")
+    div(class="col-xs-12 col-md-3")
+      |{% include side_menu.html %}
+    div(class="col-md-9 col-xs-12 full")
+      |{{ content }}
+      div(class="row")
+        div(class="col-md-12 col-xs-12 footer")
+          |{% include footer.html %}

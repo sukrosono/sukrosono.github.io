@@ -1,0 +1,85 @@
+.arc text {
+  font: 14px sans-serif;
+  text-anchor: middle;
+}
+
+.arc path {
+  stroke: #fff;
+  stroke-width: 1px;
+}
+
+div.tooltip {
+  position: absolute;
+  text-align: center;
+  width: 100px;
+  height: 30px;
+  padding: 2px;
+  font: 12px sans-serif;
+  background: lightsteelblue;
+  border: 0px;
+  border-radius: 8px;
+}
+
+/* second graph */
+
+.node {
+  cursor: pointer;
+  /* addition */
+  pointer-events: all;
+}
+
+.node:hover {
+  stroke: #000;
+  stroke-width: 1.5px;
+}
+
+.node--leaf {
+  fill: white;
+}
+
+.label-2 {
+  font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-anchor: middle;
+  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
+}
+
+.label-2, .node--root, .node--leaf {
+  pointer-events: none;
+}
+
+/* 3rd graph */
+.axis path, .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.line {
+  fill: none;
+  stroke-width: 1.5px;
+}
+
+.label-3 {
+  text-anchor: middle;
+}
+
+.label-3 rect {
+  fill: white;
+}
+
+.label-3-key {
+  font-weight: bold;
+}
+
+g.label-3 text {
+  font-size: 7px;
+  /*text-anchor: start;*/
+}
+
+g.axis--x text {
+  text-anchor: start;
+}
+
+g.axis--y path {
+  stroke: #fff;
+}

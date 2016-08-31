@@ -1,0 +1,28 @@
+
+<link rel="stylesheet" href="{{site.baseurl}}/static/css/toggle.css"/>
+<script src="{{site.baseurl}}/static/js/toggle_menu.js"></script>
+<header class="header-panel shadow-z-2">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-4 col-xs-12">
+        <div class="row-picture"><img class="logo-img" id="about" src="{{site.logo}}" height="75px" width="75px"/>
+          <h4 class="list-group-item-heading">{{site.title}}</h4>
+          <p class="list-group-item-text">{{site.author}}</p>{% include social_link.html %}
+        </div>
+      </div>
+      <div class="col-md-9 col-sm-8 col-xs-12">
+        <h2 class="blog-title-pro">{{page.title}}</h2>
+        <p class="info">{% if page.date %}<span class="time">{{page.date| date_to_string}}</span>
+          {% endif %}
+          {% if page.categories.size> 0%}<span class="categories">&raquo;</span>{% for category in page.categories %}<a href="{{site.baseurl}}/category/{{category}}">
+            {{category}}{% if forloop.last == false %}, {% endif%}</a>
+          {% endfor %}
+          {% endif %}
+        </p>
+      </div>
+    </div>
+    <div class="navbar-header pull-right row">
+      <button class="menu-btn btn-raised" type="button" data-toggle="collapse" data-target="#idTarget" aria-expanded="false"><span>Menu&nbsp;<i class="fa fa-bars menu-btn-icon"></i></span></button>
+    </div>
+  </div>
+</header>
