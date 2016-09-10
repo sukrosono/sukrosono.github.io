@@ -6,7 +6,7 @@ exclusiveCss:
   - /static/css/intro_d3js.css
 exclusiveJs:
   - //d3js.org/d3.v4.min.js
-  - //npmcdn.com/q@1.4.1/q.js
+  - //unpkg.com/q@1.4.1/q.js
   - /static/js/first_d3js.js
 tags:
   - d3js
