@@ -19,3 +19,5 @@
 
 https://schema.org/workExample
 https://schema.org/OwnershipInfo
+
+[push a gist](http://stackoverflow.com/questions/5299526/github-commiting-push-gist)
