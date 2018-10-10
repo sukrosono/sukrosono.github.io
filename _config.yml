@@ -28,16 +28,16 @@ collections:
             layout: experience
     output: true
     # permalink: /experiences/:title
-  write_eng:
+  en:
     defaults:
       - scope:
-          path: "./_write_eng/"
+          path: "./_en/"
           type: posts
     output: true
-  write_ind:
+  id:
     defaults:
       - scope:
-          path: "./_write_ind/"
+          path: "./_id/"
           type: posts
     output: true
 

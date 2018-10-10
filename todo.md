@@ -17,6 +17,8 @@
 0. programmatically use semantic for your experiences
 0. then add it on stackoverflow careers
 
+0. add index file for poem tag
+
 https://schema.org/workExample
 https://schema.org/OwnershipInfo
 

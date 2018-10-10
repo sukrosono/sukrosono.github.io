@@ -30,12 +30,12 @@ permalink: /post/
               <td>{{post.date| date: "%B %d, %Y"}}</td>
             </tr>
             {% endfor %}
-            {% for post in site.write_eng %}
+            {% for post in site.en %}
             <tr>
               <td>{{ forloop.index| plus: number }}</td>
               <td>{{post.title}}</td>
-              <td><a href="{{post.title}}">Click me</a></td>
-              <td>{{post.date| date: "%B %d, %Y"}}
+              <td><a href="{{post.url}}">Click me</a></td>
+              <td>{{post.date| date: "%B %d, %Y"}}</td>
             </tr>
             {% endfor %}
           </tbody>
@@ -43,6 +43,7 @@ permalink: /post/
       </div>
     </div>
   </div>
+
   <div class="col-xm-6 col-sm-6 col-md-6 col-lg-6">
     <div class="panel panel-danger">
       <div class="panel-heading">
@@ -69,7 +70,7 @@ permalink: /post/
                 <td>{{post.date| date: "%B %d, %Y" }}</td>
               </tr>
               {% endfor %}
-              {% for post in site.write_ind %}
+              {% for post in site.id %}
               <tr>
                 <td>{{ forloop.index| plus: number }}</td>
                 <td>{{post.title}}</td>
