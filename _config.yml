@@ -44,9 +44,9 @@ collections:
 incremental: false
 enableTags: true
 # tagarray: []
-# paginate: 5
-# per_page: 20
-# paginate_path: "page:num"
+paginate: 5
+per_page: 20
+paginate_path: "page:num"
 highlighter: rouge
 gist:
   noscript: false

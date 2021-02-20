@@ -9,6 +9,7 @@ Surely not web developer enthusiast, because my passion is on software engineeri
 Have experience with PHP (CodeIgniter), MySQL, and javascript.
 I also have basic usage on java in 2018, using a servlet.
 Outside of programming, I am interested in art, designing.
+You can support me on [patreon](https://www.patreon.com/basukarna) and [saweria](https://saweria.co/narayana).
 
 Youtube channel :
   1.  [first](https://www.youtube.com/channel/UCjoSZoattZuCd8UxayJqUow)
@@ -20,5 +21,6 @@ Youtube channel :
 Affiliation channel :
   1. [lyric video](https://www.youtube.com/channel/UCW-jT3JFpaAzrbhbXsdxs6Q)
   2. [orchid flower](https://www.youtube.com/channel/UCeeyKn0trrT8RhL8LuQJwyQ)
+  2. [Madagaskar Reggae Salatiga](https://youtube.com/channel/UCZjwnERlpTnZqj4CMW3dI-Q)
 
 Will update about page later.

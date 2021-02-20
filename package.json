@@ -1,17 +1,17 @@
 {
   "name": "brutalcrozt.github.io",
-  "version": "0.0.0",
-  "description": "github web page",
+  "version": "0.0.1",
+  "description": "Adi Prasetyo personal branding",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: write your unit test\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/brutalcrozt/brutalcrozt.github.io.git"
   },
   "keywords": [
-    "none"
+    "coding"
   ],
   "author": "Adi Prasetyo",
   "license": "ISC",

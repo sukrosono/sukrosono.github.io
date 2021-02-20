@@ -6,7 +6,7 @@
   };
 
   if (typeof a !== "undefined" && a !== null) {
-    console.log('err');
+    console.log('From freedom came elegance');
   }
 
   win = {
