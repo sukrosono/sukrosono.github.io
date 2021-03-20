@@ -10,11 +10,12 @@ title: Web developer
 author: Adi Prasetyo
 email: hidden@from.spammer
 logo: /static/img/avatar.png
+logo: /static/img/ava-satanic.png
 description: A person who admires software engineering and fall in love with web
 baseurl:  # the subpath of your site, e.g. /blog
-url: "http://brutalcrozt.github.io" # the base hostname & protocol for your site
+url: "http://sukrosono.github.io" # the base hostname & protocol for your site
 twitter_username: enter_rebel
-github_username:  brutalcrozt
+github_username:  sukrosono
 github: [metadata]
 lsi: false
 source: ./
