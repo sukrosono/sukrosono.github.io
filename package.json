@@ -1,14 +1,14 @@
 {
-  "name": "brutalcrozt.github.io",
+  "name": "sukrosono.github.io",
   "version": "0.0.1",
   "description": "Adi Prasetyo personal branding",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: write your unit test\" && exit 1"
+    "server": "bundle exec jekyll serve"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brutalcrozt/brutalcrozt.github.io.git"
+    "url": "git+https://github.com/sukrosono/sukrosono.github.io.git"
   },
   "keywords": [
     "coding"
@@ -16,9 +16,9 @@
   "author": "Adi Prasetyo",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/brutalcrozt/brutalcrozt.github.io/issues"
+    "url": "https://github.com/sukrosono/sukrosono.github.io/issues"
   },
-  "homepage": "https://github.com/brutalcrozt/brutalcrozt.github.io#readme",
+  "homepage": "https://github.com/sukrosono/sukrosono.github.io#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.0",

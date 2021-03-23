@@ -13,7 +13,7 @@ logo: /static/img/avatar.png
 logo: /static/img/ava-satanic.png
 description: A person who admires software engineering and fall in love with web
 baseurl:  # the subpath of your site, e.g. /blog
-url: "http://sukrosono.github.io" # the base hostname & protocol for your site
+url: "https://sukrosono.github.io" # the base hostname & protocol for your site
 twitter_username: enter_rebel
 github_username:  sukrosono
 github: [metadata]
@@ -51,7 +51,7 @@ paginate_path: "page:num"
 highlighter: rouge
 gist:
   noscript: false
-gems:
+plugins:
     - jekyll-sitemap
     - jekyll-coffeescript
     - jekyll-paginate

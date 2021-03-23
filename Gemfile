@@ -1,11 +1,10 @@
 source 'https://rubygems.org'
-gem 'github-pages'
+gem "github-pages", "~> 212", group: :jekyll_plugins
 group :jekyll_plugins do
-  gem 'jekyll'
+  gem 'jekyll', '3.9.0'
   gem 'jekyll-paginate-category'
   gem 'jekyll-gist'
-  gem 'jekyll-watch', '1.1'
+  gem 'jekyll-watch'
   gem 'kramdown'
-  gem 'rouge', '1.7'
-  gem 'wdm'
+  gem 'rouge', '3.26.0'
 end

@@ -3,7 +3,7 @@ layout: page
 title: Documented Experiences
 permalink: /experiences/
 ---
-
+<hr>
 {% if page.paginator %}
 {% assign paginator= page.paginator %}
 {% endif %}
@@ -19,6 +19,7 @@ permalink: /experiences/
         <p>
           {{post.content| strip_html | truncate: 70 }} <a href="{{post.url}}">More</a>
         </p>
+      </div>
       <div class="list-group-separator">
       </div>
     </div>

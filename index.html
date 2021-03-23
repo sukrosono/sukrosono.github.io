@@ -11,7 +11,8 @@ allPosts:
 
   <h1 class="page-heading">Welcome</h1>
   <p>
-    Perhaps i will come back when got new idea to design this. Feel free to look around or contact me.
+    Feel free to look around or contact me. I am no longer writing on this site,
+    please go to my <a href="https://enter-rebel.github.io">new site</a>
   </p>
   <div class="panel panel-primary">
     <div class="panel-heading">
@@ -25,7 +26,7 @@ allPosts:
           {% assign combined= combined| push: post %}
           {% endfor %}
         {% endfor %}
-        {% assign combined= (combined| sort: 'date'| reverse) %}
+        {% assign combined= combined| sort: 'date'| reverse %}
         {% for post in combined %}
           <div class="list-group-item">
             <div class="row-action-primary">
