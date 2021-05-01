@@ -30,7 +30,7 @@
     "gulp-sass": "^2.3.2",
     "gulp-sourcemaps": "^1.6.0",
     "gulp-uglify": "^1.5.4",
-    "pug": "^2.0.0-beta5",
+    "pug": "^3.0.1",
     "yargs": "^4.7.1"
   },
   "coffeelintConfig": {
