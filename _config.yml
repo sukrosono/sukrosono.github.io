@@ -13,7 +13,7 @@ logo: /static/img/avatar.png
 logo: /static/img/ava-satanic.png
 description: A person who admires software engineering and fall in love with web
 baseurl:  # the subpath of your site, e.g. /blog
-url: "https://sukrosono.github.io" # the base hostname & protocol for your site
+url: https://sukrosono.github.io # the base hostname & protocol for your site
 twitter_username: enter_rebel
 github_username:  sukrosono
 github: [metadata]
@@ -52,12 +52,21 @@ highlighter: rouge
 gist:
   noscript: false
 plugins:
-    - jekyll-sitemap
-    - jekyll-coffeescript
-    - jekyll-paginate
-    - jekyll-paginate-category
-    - jekyll-gist
-    - rouge
-    - jekyll-watch
+  - jekyll-coffeescript
+  - jekyll-paginate
+  - jekyll-paginate-category
+  - jekyll-gist
+  - rouge
+  - jekyll-watch
+  - jekyll-analytics
+gems:
+  - jekyll-sitemap
+  - jekyll-feed
+jekyll_analytics:
+  GoogleAnalytics:          # Add, if you want to track with Google Analytics
+    id: UA-80247211-1          # Required - replace with your tracking id
+    anonymizeIp: false
+feed:
+  path: atom.xml
 # Build settings
 markdown: kramdown
