@@ -5,6 +5,6 @@ group :jekyll_plugins do
   gem 'jekyll-paginate-category'
   gem 'jekyll-gist'
   gem 'jekyll-watch'
-  gem 'kramdown'
+  gem "kramdown", ">= 2.3.0"
   gem 'rouge', '3.26.0'
 end

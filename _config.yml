@@ -68,5 +68,13 @@ jekyll_analytics:
     anonymizeIp: false
 feed:
   path: atom.xml
+  excerpt_only: true
+  collections:
+    experiences:
+      path: experiences.xml
+    en:
+      path: english-post.xml
+    id:
+      path: indonesian-post.xml
 # Build settings
 markdown: kramdown

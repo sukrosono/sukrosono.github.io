@@ -263,7 +263,7 @@ DEPENDENCIES
   jekyll-gist
   jekyll-paginate-category
   jekyll-watch
-  kramdown
+  kramdown (>= 2.3.0)
   rouge (= 3.26.0)
 
 BUNDLED WITH
