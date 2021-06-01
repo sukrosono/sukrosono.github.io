@@ -59,12 +59,11 @@ plugins:
   - rouge
   - jekyll-watch
   - jekyll-analytics
-gems:
   - jekyll-sitemap
   - jekyll-feed
 jekyll_analytics:
   GoogleAnalytics:          # Add, if you want to track with Google Analytics
-    id: UA-80247211-1          # Required - replace with your tracking id
+    id: UA-80247211-1
     anonymizeIp: false
 feed:
   path: atom.xml
