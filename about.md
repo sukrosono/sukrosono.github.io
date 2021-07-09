@@ -13,16 +13,18 @@ You can support me on [patreon](https://www.patreon.com/basukarna) and [saweria]
 
 
 Youtube channel :
-  1.  [first](https://www.youtube.com/channel/UCjoSZoattZuCd8UxayJqUow)
-  2.  [programming](https://www.youtube.com/channel/UCS4CNvE8zUHzd1FHk6MZnOA)
-  3.  [programming use brand](https://www.youtube.com/channel/UCaOLzRcWNqAYnKjUuCZEq5g)
+  1.  [ap.programming](https://www.youtube.com/channel/UCjoSZoattZuCd8UxayJqUow?sub_confirmation=1)
+  2.  [amburadul channel](https://www.youtube.com/channel/UCS4CNvE8zUHzd1FHk6MZnOA?sub_confirmation=1)
+  3.  [programming](https://www.youtube.com/channel/UCaOLzRcWNqAYnKjUuCZEq5g?sub_confirmation=1)
+  3.  [bukan feinyu](http://www.youtube.com/channel/UCfvKiZeqn2edY3JMwjsxdaQ?sub_confirmation=1)
   <!-- one which connected to patreon -->
-  4.  [cangSchool](https://www.youtube.com/channel/UCxJHFqdJW18E0r6_BR7ykwg)
+  4.  [???](https://www.youtube.com/channel/UCxJHFqdJW18E0r6_BR7ykwg?sub_confirmation=1)
 
+Hey what about facebook? Okay [here](https://www.facebook.com/IamProgrammerWhoEnjoyMyLife/) is the page.
 
 Affiliation channel :
-  1. [lyric video](https://www.youtube.com/channel/UCW-jT3JFpaAzrbhbXsdxs6Q)
-  2. [orchid flower](https://www.youtube.com/channel/UCeeyKn0trrT8RhL8LuQJwyQ)
-  2. [Madagaskar Reggae Salatiga](https://youtube.com/channel/UCZjwnERlpTnZqj4CMW3dI-Q)
+  1. [Three Chilix](https://www.youtube.com/channel/UCW-jT3JFpaAzrbhbXsdxs6Q?sub_confirmation=1)
+  2. [orchid flower](https://www.youtube.com/channel/UCeeyKn0trrT8RhL8LuQJwyQ?sub_confirmation=1)
+  2. [Madagaskar Reggae Salatiga](https://youtube.com/channel/UCZjwnERlpTnZqj4CMW3dI-Q?sub_confirmation=1)
 
-Will update about page later.
+Will update about page [later](https://linktr.ee/sukrosono).

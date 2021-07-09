@@ -17,7 +17,9 @@
     {% endif %}
   {% endfor %}
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
-
+  {% if site.google_analytics and jekyll.environment == 'production' %}
+  {% include analytics.html %}
+  {% endif %}
   <!-- optional js if exist on front matter -->
   {% for extraJs in page.exclusiveJs %}
     {% if extraJs contains '//' %}

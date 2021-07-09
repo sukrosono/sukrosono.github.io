@@ -58,7 +58,7 @@ plugins:
   - jekyll-gist
   - rouge
   - jekyll-watch
-  - jekyll-analytics
+  - jekyll-rushed-analytics
   - jekyll-sitemap
   - jekyll-feed
 jekyll_analytics:
@@ -77,3 +77,5 @@ feed:
       path: indonesian-post.xml
 # Build settings
 markdown: kramdown
+liquid:
+  error_mode: warn

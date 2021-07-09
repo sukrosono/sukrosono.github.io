@@ -4,7 +4,11 @@
   "description": "Adi Prasetyo personal branding",
   "main": "index.js",
   "scripts": {
-    "server": "bundle exec jekyll serve"
+    "server": "bundle exec jekyll serve",
+    "inspect": "bundle exec jekyll doctor",
+    "static": "bundle exec jekyll build",
+    "clean": "bundle exec jekyll clean",
+    "develop": "JEKYLL_ENV=production bundle exec jekyll serve --incremental"
   },
   "repository": {
     "type": "git",
