@@ -1,0 +1,2 @@
+- Software Engineering Satya Wacana Christian University
+- SMAN 1 Boyolali (2019)

@@ -15,8 +15,8 @@ You can support me on [patreon](https://www.patreon.com/basukarna) and [saweria]
 Youtube channel :
   1.  [ap.programming](https://www.youtube.com/channel/UCjoSZoattZuCd8UxayJqUow?sub_confirmation=1)
   2.  [amburadul channel](https://www.youtube.com/channel/UCS4CNvE8zUHzd1FHk6MZnOA?sub_confirmation=1)
-  3.  [programming](https://www.youtube.com/channel/UCaOLzRcWNqAYnKjUuCZEq5g?sub_confirmation=1)
-  3.  [bukan feinyu](http://www.youtube.com/channel/UCfvKiZeqn2edY3JMwjsxdaQ?sub_confirmation=1)
+  3.  [gamming channel](https://www.youtube.com/channel/UCaOLzRcWNqAYnKjUuCZEq5g?sub_confirmation=1)
+  3.  [all in one channel](http://www.youtube.com/channel/UCfvKiZeqn2edY3JMwjsxdaQ?sub_confirmation=1)
   <!-- one which connected to patreon -->
   4.  [???](https://www.youtube.com/channel/UCxJHFqdJW18E0r6_BR7ykwg?sub_confirmation=1)
 
