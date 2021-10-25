@@ -61,7 +61,7 @@ plugins:
   - jekyll-rushed-analytics
   - jekyll-sitemap
   - jekyll-feed
-jekyll_analytics:
+jekyll_rushed_analytics:
   GoogleAnalytics:          # Add, if you want to track with Google Analytics
     id: UA-80247211-1
     anonymizeIp: false

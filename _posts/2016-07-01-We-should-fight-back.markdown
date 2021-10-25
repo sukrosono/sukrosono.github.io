@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "We should fight back"
+title: "We should fight back to life"
 date: 2016-07-01 04:50:00 +0700
 author: Adi Prasetyo
 tag: english

@@ -8,7 +8,7 @@
     "inspect": "bundle exec jekyll doctor",
     "static": "bundle exec jekyll build",
     "clean": "bundle exec jekyll clean",
-    "develop": "JEKYLL_ENV=production bundle exec jekyll serve --incremental"
+    "develop": "JEKYLL_ENV=production bundle exec jekyll serve --incremental --trace"
   },
   "repository": {
     "type": "git",
