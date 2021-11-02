@@ -65,6 +65,8 @@ jekyll_rushed_analytics:
   GoogleAnalytics:          # Add, if you want to track with Google Analytics
     id: UA-80247211-1
     anonymizeIp: false
+  GoogleAdSense:
+    ad-client: ca-pub-5231021155454689
 feed:
   path: atom.xml
   excerpt_only: true
