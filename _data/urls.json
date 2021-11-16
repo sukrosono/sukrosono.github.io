@@ -11,6 +11,11 @@
     "icon": "fa-comments"
   },
   {
+    "text": "Media",
+    "url": "/media/",
+    "icon": "fa-headset"
+  },
+  {
     "text": "Post",
     "url": "/post/",
     "icon": "fa-pencil"

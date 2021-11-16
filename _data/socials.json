@@ -1,7 +1,7 @@
 [
   {
-    "icon": "fa-facebook-square",
-    "link": "https://facebook.com/padarta"
+    "icon": "fa-youtube",
+    "link": "https://facebook.com/c/approgramming"
   },
   {
     "icon": "fa-twitter",
@@ -16,5 +16,9 @@
   },{
     "icon": "fa-stack-overflow",
     "link": "http://stackoverflow.com/users/2368696/adi-prasetyo"
+  }
+  },{
+    "icon": "fa-twich",
+    "link": "http://https://www.twitch.tv/enter_rebel"
   }
 ]

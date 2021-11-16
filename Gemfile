@@ -9,4 +9,5 @@ group :jekyll_plugins do
   gem "kramdown", ">= 2.3.1"
   gem 'rouge', '3.26.0'
   gem 'jekyll-rushed-analytics'
+  gem 'jekyll-spaceship'
 end

@@ -9,7 +9,8 @@
     "static": "bundle exec jekyll build",
     "clean": "bundle exec jekyll clean",
     "develop": "bundle exec jekyll serve --incremental --trace",
-    "production": "JEKYLL_ENV=production bundle exec jekyll serve --incremental --trace"
+    "production": "JEKYLL_ENV=production bundle exec jekyll serve --incremental --trace",
+    "media": "python src/python/pl.py"
   },
   "repository": {
     "type": "git",
