@@ -13,12 +13,11 @@
   },{
     "icon": "fa-instagram",
     "link": "https://www.instagram.com/enter_rebel/"
-  },{
-    "icon": "fa-stack-overflow",
-    "link": "http://stackoverflow.com/users/2368696/adi-prasetyo"
-  }
-  },{
-    "icon": "fa-twich",
+  },
+  {
+    "disable": "fa-stack-overflow",
+    "disable2": "http://stackoverflow.com/users/2368696/adi-prasetyo",
+    "icon": "fa-twitch",
     "link": "http://https://www.twitch.tv/enter_rebel"
   }
 ]
