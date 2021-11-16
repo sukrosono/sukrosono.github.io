@@ -31,3 +31,16 @@ Affiliation channel :
 <!--- you have 2 server, only expose 1 pub server! -->
 Well if you are gammer, consider join my [discord](https://discord.gg/UBwNx99BFU). I am dotA 2 player, but also playing Mobile Legend on my free time. Yay, thanks for steping by.
 This page is periodically updated, stay [tuned](https://linktr.ee/sukrosono).
+
+<div id="twitch-embed"></div>
+  <script src="https://embed.twitch.tv/embed/v1.js"></script>
+  <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element -->
+  <script type="text/javascript">
+    new Twitch.Embed("twitch-embed", {
+      width: 854,
+      height: 480,
+      channel: "enter_rebel",
+      // Only needed if this page is going to be embedded on other websites
+      parent: ["sukrosono.github.io"]
+    });
+  </script>

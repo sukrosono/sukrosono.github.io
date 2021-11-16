@@ -8,6 +8,6 @@ group :jekyll_plugins do
   gem 'jekyll-watch'
   gem "kramdown", ">= 2.3.1"
   gem 'rouge', '3.26.0'
-  gem 'jekyll-rushed-analytics'
+  gem 'jekyll-rushed-analytics', '0.1.15.pre'
   gem 'jekyll-spaceship'
 end
