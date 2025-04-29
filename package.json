@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/sukrosono/sukrosono.github.io#readme",
   "devDependencies": {
-    "gulp": "^4.0.2",
+    "gulp": "^5.0.0",
     "gulp-coffee": "^3.0.3",
     "gulp-concat": "^2.6.1",
     "gulp-if": "^3.0.0",
