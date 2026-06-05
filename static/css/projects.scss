@@ -52,7 +52,7 @@ $text_size: 13px;
 
         @include borderbtm( #888 );
         @include margins(0 5px);
-        font-size: ($heading_size / 2);
+        font-size: calc($heading_size / 2);
 
         &:first-child, &:last-child { margin-left: 0; }
     }
