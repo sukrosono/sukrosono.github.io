@@ -1,8 +1,12 @@
 source 'https://rubygems.org'
-gem "github-pages", "~> 215"
+gem 'jekyll', '~> 4.4'
 # , group: :jekyll_plugins
 group :jekyll_plugins do
-  gem 'jekyll', '3.9.0'
+  gem 'jekyll-coffeescript'
+  gem 'jekyll-paginate'
+  gem 'jekyll-watch'
+  gem 'jekyll-sitemap'
+  gem 'jekyll-feed'
   gem 'jekyll-paginate-category'
   gem 'jekyll-gist'
   gem 'jekyll-watch'
