@@ -4,7 +4,6 @@ gem 'jekyll', '~> 4.4'
 group :jekyll_plugins do
   gem 'jekyll-coffeescript'
   gem 'jekyll-paginate'
-  gem 'jekyll-watch'
   gem 'jekyll-sitemap'
   gem 'jekyll-feed'
   gem 'jekyll-paginate-category'
